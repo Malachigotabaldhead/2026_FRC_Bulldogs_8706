@@ -114,8 +114,8 @@ def getSwerveTurningMotorConfig(turnMotorInverted: bool, useAbsoluteEncoderGoals
 
 
 class ModuleConstants:
-    kDrivingMotorIsTalon = False
-    kTurningMotorIsTalon = False
+    kDrivingMotorIsTalon = True
+    kTurningMotorIsTalon = True
     kTurningKalmanGain = 0.05  # if using CANcoder, how quickly to fuse the absolute and relative angles
     kWheelDiameterMeters = 0.0762
 
