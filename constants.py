@@ -61,10 +61,10 @@ class DriveConstants:
     kRearRightTurningCanId = 8
 
     # CANCODER CAN IDs
-    kFrontLeftCancoderCanId = -1
-    kRearLeftCancoderCanId = -1
-    kFrontRightCancoderCanId = -1
-    kRearRightCancoderCanId = -1
+    kFrontLeftCancoderCanId = 5
+    kRearLeftCancoderCanId = 6
+    kFrontRightCancoderCanId = 7
+    kRearRightCancoderCanId = 8
 
     kGyroReversed = -1  # can be +1 if not flipped (affects field-relative driving)
     kGyroIsPigeon = False
